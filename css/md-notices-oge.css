@@ -1,0 +1,127 @@
+.notices {
+    padding: 1px 1px 1px 30px;
+    margin: 15px 0;
+}
+
+.notices p {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.notices::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.notices p::before {
+    font-size: 120%;
+    text-align: left;
+    font-weight: 300;
+    font-family: "Font Awesome 5 Free", 'Open Sans', sans-serif;
+}
+
+.notices.yellow {
+    border-left: 20px solid #f0ad4e;
+    border-top: 5px solid #f0ad4e;
+    background: #fcf8f2;
+    color: #df8a13;
+}
+
+.notices.red {
+    border-left: 20px solid #919191;
+    border-top: 5px solid #919191;
+    background: #f0f0f0;
+    color: #727272;
+}
+
+.notices.blue {
+    border-left: 20px solid #009de0;
+    border-top: 5px solid #009de0;
+    background: #009de017;
+    color: #009de0;
+}
+
+.notices.blue2 {
+    border-left: 20px solid #59b8de;
+    border-top: 5px solid #59b8de;
+    background: #f4f8fa;
+    color: #009de0;
+}
+
+.notices.green {
+    border-left: 20px solid #A1BF35;
+    border-top: 5px solid #A1BF35;
+    background: #f1f9f1;
+    color: #3d8b3d;
+}
+
+.notices.green2 {
+    border-left: 20px solid #967bb6;
+    border-top: 5px solid #967bb6;
+    background: #f1f9f1;
+    color: #967bb6;
+}
+
+.notices.green3 {
+    border-left: 20px solid rgb(248, 0, 174);
+    border-top: 5px solid #A1BF35;
+    background: #f1f9f1;
+    color: #3d8b3d;
+}
+
+.notices.yellow p::before {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    content: '\f360';
+}
+
+.notices.red p::before {
+
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    content: '\f12a';
+}
+
+.notices.blue p::before {
+
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    content: '\f02e';
+}
+
+.notices.green p::before {
+
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    content: '\f059';
+}
+
+.notices.green3 p::before {
+
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 400;
+    content: '\f071';
+}
+
+.notices.green2 p::before {
+
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 600;
+    content: '\f10e';
+    color: #967bb6;
+}

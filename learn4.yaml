@@ -1,11 +1,12 @@
 enabled: true
 production-mode: false
-grid-size: grid-lg
+grid-size: grid-xl
 github:
   note: true
   link: true
-  tree: https://github.com/getgrav/grav-learn/blob/develop/
-  commits: https://github.com/getgrav/grav-learn/commits/develop/
+  position: top                                   # top | bottom | off
+  tree: https://github.com/opengeoedu/learn.opengeoedu.de/tree/master/
+  commits: https://github.com/opengeoedu/learn.opengeoedu.de/commits/
 spectre:
   exp: false
   icons: false

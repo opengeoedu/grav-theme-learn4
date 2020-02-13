@@ -32,13 +32,13 @@
     flex: 1 0 auto; }
 
 .calendar {
-  border: 0.05rem solid #e7e9ed;
+  border: 0.05rem solid #dadee4;
   border-radius: 0.1rem;
   display: block;
   min-width: 280px; }
   .calendar .calendar-nav {
     align-items: center;
-    background: #f8f9fa;
+    background: #f7f8f9;
     border-top-left-radius: 0.1rem;
     border-top-right-radius: 0.1rem;
     display: flex;
@@ -55,13 +55,13 @@
       flex: 0 0 14.28%;
       max-width: 14.28%; }
   .calendar .calendar-header {
-    background: #f8f9fa;
-    border-bottom: 0.05rem solid #e7e9ed;
-    color: #acb3c2;
+    background: #f7f8f9;
+    border-bottom: 0.05rem solid #dadee4;
+    color: #bcc3ce;
     font-size: 0.7rem;
     text-align: center; }
   .calendar .calendar-body {
-    color: #667189; }
+    color: #66758c; }
   .calendar .calendar-date {
     border: 0;
     padding: 0.2rem; }
@@ -70,7 +70,7 @@
       background: transparent;
       border: 0.05rem solid transparent;
       border-radius: 50%;
-      color: #667189;
+      color: #66758c;
       cursor: pointer;
       font-size: 0.7rem;
       height: 1.4rem;
@@ -85,13 +85,13 @@
       white-space: nowrap;
       width: 1.4rem; }
       .calendar .calendar-date .date-item.date-today {
-        border-color: #97b332;
+        border-color: #91deff;
         color: #009de0; }
       .calendar .calendar-date .date-item:focus {
         box-shadow: 0 0 0 0.1rem rgba(0, 157, 224, 0.2); }
       .calendar .calendar-date .date-item:focus, .calendar .calendar-date .date-item:hover {
-        background: #aac93b;
-        border-color: #97b332;
+        background: #b0e7ff;
+        border-color: #91deff;
         color: #009de0;
         text-decoration: none; }
       .calendar .calendar-date .date-item:active, .calendar .calendar-date .date-item.active {
@@ -116,7 +116,7 @@
   .calendar .calendar-range {
     position: relative; }
     .calendar .calendar-range::before {
-      background: #a1bf35;
+      background: #a0e3ff;
       content: "";
       height: 1.4rem;
       left: 0;
@@ -137,8 +137,8 @@
   .calendar.calendar-lg .calendar-body {
     padding: 0; }
     .calendar.calendar-lg .calendar-body .calendar-date {
-      border-bottom: 0.05rem solid #e7e9ed;
-      border-right: 0.05rem solid #e7e9ed;
+      border-bottom: 0.05rem solid #dadee4;
+      border-right: 0.05rem solid #dadee4;
       display: flex;
       flex-direction: column;
       height: 5.5rem;
@@ -180,10 +180,10 @@
   z-index: 100; }
 
 .carousel .carousel-locator:nth-of-type(1):checked ~ .carousel-nav .nav-item:nth-of-type(1), .carousel .carousel-locator:nth-of-type(2):checked ~ .carousel-nav .nav-item:nth-of-type(2), .carousel .carousel-locator:nth-of-type(3):checked ~ .carousel-nav .nav-item:nth-of-type(3), .carousel .carousel-locator:nth-of-type(4):checked ~ .carousel-nav .nav-item:nth-of-type(4), .carousel .carousel-locator:nth-of-type(5):checked ~ .carousel-nav .nav-item:nth-of-type(5), .carousel .carousel-locator:nth-of-type(6):checked ~ .carousel-nav .nav-item:nth-of-type(6), .carousel .carousel-locator:nth-of-type(7):checked ~ .carousel-nav .nav-item:nth-of-type(7), .carousel .carousel-locator:nth-of-type(8):checked ~ .carousel-nav .nav-item:nth-of-type(8) {
-  color: #e7e9ed; }
+  color: #f7f8f9; }
 
 .carousel {
-  background: #f8f9fa;
+  background: #f7f8f9;
   display: block;
   overflow: hidden;
   position: relative;
@@ -212,9 +212,9 @@
         opacity: 1; }
     .carousel .carousel-container .item-prev,
     .carousel .carousel-container .item-next {
-      background: rgba(231, 233, 237, 0.25);
-      border-color: rgba(231, 233, 237, 0.5);
-      color: #e7e9ed;
+      background: rgba(247, 248, 249, 0.25);
+      border-color: rgba(247, 248, 249, 0.5);
+      color: #f7f8f9;
       opacity: 0;
       position: absolute;
       top: 50%;
@@ -235,7 +235,7 @@
     width: 10rem;
     z-index: 100; }
     .carousel .carousel-nav .nav-item {
-      color: rgba(231, 233, 237, 0.5);
+      color: rgba(247, 248, 249, 0.5);
       display: block;
       flex: 1 0 auto;
       height: 1.6rem;
@@ -332,7 +332,7 @@
     transform: translateY(-50%) scaleY(30);
     width: 0; }
   .comparison-slider .comparison-label {
-    background: rgba(69, 77, 93, 0.5);
+    background: rgba(48, 55, 66, 0.5);
     bottom: 0.8rem;
     color: #fff;
     padding: 0.2rem 0.4rem;
@@ -365,7 +365,7 @@
 
 .meter {
   appearance: none;
-  background: #f8f9fa;
+  background: #f7f8f9;
   border: 0;
   border-radius: 0.1rem;
   display: block;
@@ -376,7 +376,7 @@
   .meter::-webkit-meter-bar, .meter::-webkit-meter-optimum-value, .meter::-webkit-meter-suboptimum-value, .meter::-webkit-meter-even-less-good-value {
     border-radius: 0.1rem; }
   .meter::-webkit-meter-bar {
-    background: #f8f9fa; }
+    background: #f7f8f9; }
   .meter::-webkit-meter-optimum-value {
     background: #32b643; }
   .meter::-webkit-meter-suboptimum-value {
@@ -406,7 +406,7 @@
     z-index: 1;
     left: 0.4rem; }
   .off-canvas .off-canvas-sidebar {
-    background: #f8f9fa;
+    background: #f7f8f9;
     bottom: 0;
     min-width: 10rem;
     overflow-y: auto;
@@ -421,7 +421,7 @@
     height: 100%;
     padding: 0.4rem 0.4rem 0.4rem 4rem; }
   .off-canvas .off-canvas-overlay {
-    background: rgba(69, 77, 93, 0.1);
+    background: rgba(48, 55, 66, 0.1);
     border-color: transparent;
     border-radius: 0;
     bottom: 0;
@@ -453,7 +453,7 @@
   position: relative;
   width: auto; }
   .parallax .parallax-content {
-    box-shadow: 0 1rem 2.1rem rgba(69, 77, 93, 0.3);
+    box-shadow: 0 1rem 2.1rem rgba(48, 55, 66, 0.3);
     height: auto;
     transform: perspective(1000px);
     transform-style: preserve-3d;
@@ -476,7 +476,7 @@
     left: 0;
     position: absolute;
     text-align: center;
-    text-shadow: 0 0 20px rgba(69, 77, 93, 0.75);
+    text-shadow: 0 0 20px rgba(48, 55, 66, 0.75);
     top: 0;
     transform: translateZ(50px) scale(0.95);
     transition: transform .4s;
@@ -541,7 +541,7 @@
 
 .progress {
   appearance: none;
-  background: #f0f1f4;
+  background: #eef0f3;
   border: 0;
   border-radius: 0.1rem;
   color: #009de0;
@@ -559,7 +559,7 @@
     border-radius: 0.1rem; }
   .progress:indeterminate {
     animation: progress-indeterminate 1.5s linear infinite;
-    background: #f0f1f4 linear-gradient(to right, #009de0 30%, #f0f1f4 30%) top left/150% 150% no-repeat; }
+    background: #eef0f3 linear-gradient(to right, #009de0 30%, #eef0f3 30%) top left/150% 150% no-repeat; }
     .progress:indeterminate::-moz-progress-bar {
       background: transparent; }
 
@@ -609,26 +609,26 @@
   .slider:active::-ms-thumb {
     transform: scale(1.25); }
   .slider:disabled::-webkit-slider-thumb, .slider.disabled::-webkit-slider-thumb {
-    background: #e7e9ed;
+    background: #f7f8f9;
     transform: scale(1); }
   .slider:disabled::-moz-range-thumb, .slider.disabled::-moz-range-thumb {
-    background: #e7e9ed;
+    background: #f7f8f9;
     transform: scale(1); }
   .slider:disabled::-ms-thumb, .slider.disabled::-ms-thumb {
-    background: #e7e9ed;
+    background: #f7f8f9;
     transform: scale(1); }
   .slider::-webkit-slider-runnable-track {
-    background: #f0f1f4;
+    background: #eef0f3;
     border-radius: 0.1rem;
     height: 0.1rem;
     width: 100%; }
   .slider::-moz-range-track {
-    background: #f0f1f4;
+    background: #eef0f3;
     border-radius: 0.1rem;
     height: 0.1rem;
     width: 100%; }
   .slider::-ms-track {
-    background: #f0f1f4;
+    background: #eef0f3;
     border-radius: 0.1rem;
     height: 0.1rem;
     width: 100%; }
@@ -640,7 +640,7 @@
   margin-bottom: 1.2rem;
   position: relative; }
   .timeline .timeline-item::before {
-    background: #e7e9ed;
+    background: #dadee4;
     content: "";
     height: 100%;
     left: 11px;

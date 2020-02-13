@@ -258,7 +258,7 @@
 
 /** Defaults (purple) **/
 .off-canvas .learn-sidebar:before {
-    background: linear-gradient(150deg, $wisteria 0, $deep-well 100%);
+    background: linear-gradient(150deg, darken($primary-color, 20%) 20%, $secondary-color 100%);
 }
 
 /** Secondary (green) **/

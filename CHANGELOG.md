@@ -1,3 +1,13 @@
+# v000
+## 02/13/2020
+
+1. [](#improved)
+   * primary, secondary color
+   * webfonts now with fontawesome
+   * gitpaths
+   * templates
+   * config for github-link/note
+
 # v2.0.0-rc.2
 ## mm/dd/2019
 

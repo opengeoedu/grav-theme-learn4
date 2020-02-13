@@ -12,6 +12,9 @@
     {% include 'partials/toc.html.twig' %}
 
     {% include 'partials/page.html.twig' %}
+    
+    {% if theme_var('github.link') %}
+      {% include 'partials/github-note.html.twig' %}
+    {% endif %}
 
-    {% include 'partials/github-note.html.twig' %}
 {% endblock %}

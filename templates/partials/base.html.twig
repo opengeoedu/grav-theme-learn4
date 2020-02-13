@@ -17,9 +17,10 @@
 {% endblock head %}
 
 {% block stylesheets %}
-    {% do assets.addCss('theme://css/fork-awesome.min.css') %}
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
+    {% do assets.addCss('theme://css/font-awesome.min.css') %}
+    {% do assets.addCss('theme://css/custom.css') %}
 {% endblock %}
 
 {% block javascripts %}
@@ -31,6 +32,7 @@
     {{ assets.css()|raw }}
     {{ assets.js()|raw }}
 {% endblock %}
+<script src="https://kit.fontawesome.com/667448f242.js"></script>
 </head>
 <body id="top" class="{{ sidebar_color }} {% block body_classes %}{{ body_classes|trim }}{% endblock %}" data-url="{{ page.route }}">
     <div id="page-wrapper" class="off-canvas off-canvas-sidebar-show">

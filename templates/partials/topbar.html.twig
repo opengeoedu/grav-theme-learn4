@@ -1,5 +1,5 @@
 <div id="top-bar">
-  {% if  github_link_position == 'top' %}
+  {% if github_link_position == 'top' %}
     <div id="top-github-link">
       {% include 'partials/github_link.html.twig' %}
     </div>
@@ -10,18 +10,18 @@
   {% endif %}
 
   <div id="navigation">
-    {% if theme_var('github.link') %}
+    {% if not theme_var('github.link == true') %}
       {% include 'partials/github-link.html.twig' %}
     {% endif %}
     {% if not progress.isFirst(page.path) %}
-      <a class="nav-prev tooltip tooltip-bottom" data-tooltip="Previous Page [&larr;]" href="{{ progress.nextSibling(page.path).url }}"> <i class="fa fa-angle-left"></i></a>
+      <a class="nav-prev tooltip tooltip-bottom" data-tooltip="{{'THEME_LEARN4_TOPNAV_PREV'|t}}" href="{{ progress.nextSibling(page.path).url }}"> <i class="fas fa-angle-left"></i></a>
     {% else %}
-      <span class="disabled"><i class="fa fa-angle-left"></i></span>
+      <span class="disabled"><i class="fas fa-angle-left"></i></span>
     {% endif %}
     {% if not progress.isLast(page.path) %}
-      <a class="nav-next tooltip tooltip-bottom" data-tooltip="Next Page [&rarr;]" href="{{ progress.prevSibling(page.path).url }}"><i class="fa fa-angle-right"></i></a>
+      <a class="nav-next tooltip tooltip-bottom" data-tooltip="{{'THEME_LEARN4_TOPNAV_NEXT'|t}}" href="{{ progress.prevSibling(page.path).url }}"><i class="fas fa-angle-right"></i></a>
     {% else %}
-      <span class="disabled"><i class="fa fa-angle-right"></i></span>
+      <span class="disabled"><i class="fas fa-angle-right"></i></span>
     {% endif %}
   </div>
   <div class="progress"></div>
